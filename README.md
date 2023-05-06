@@ -10,18 +10,35 @@
  
  
  ---->Tools ,api's or frameworks used in this model buildation --->
- >scikit-learn
- >Tensorflow
- >Modelbit(deployment)
+ 
+ ![scikit-learn](https://user-images.githubusercontent.com/99581144/236625346-b26eb5d1-55f3-44e3-aa25-745c26fb4436.png)
+ 
+ ![tensor](https://user-images.githubusercontent.com/99581144/236625365-37de8408-b4df-4ae6-8f85-cdf48d33a537.png)
+ 
+![model](https://user-images.githubusercontent.com/99581144/236625379-ab001be6-d18f-45a2-9f12-c8bc5c19b42c.jpeg)
+
+
+ 
  >capsa(for evaluation model bias and uncertainty cases)
+ 
  >localhost files (data)
  
- algorithms covered in this development 1)KNNRegressor 2)VAR Multivariate forecasting method 3)XGBRegressor 4)deep stack of layers(neurons) etc.
+ algorithms covered in this development
+ 
+ 1)KNNRegressor
+ 
+ 2)VAR Multivariate forecasting method 
+ 
+ 3)XGBRegressor
+ 
+ 4)deep stack of layers(neurons) etc.
+ 
  evaluation metrics used mean_absolute_percentage_error because this forecasting problem and this metrics good measure for that normal metrics doesn't have much impact regarding real-time scenes
+ 
  
  this is model error plot with deep stack of layers
  
- ![model_losses](https://user-images.githubusercontent.com/99581144/236624917-6ff2b15c-0981-41fa-906c-bdb00402cc7f.png)
+
 
  
  trainingdata and validation data losses and their mape are getting to closer and closer offcourse the model gets generalised well in our systems but expecting into real time environments that's why last phase called any application or software is deployment .in this we used tool called Modelbit fast deploy ml models .we deployed above model using this tool.
