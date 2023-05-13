@@ -1,0 +1,5 @@
+python >=3.10
+Tensorflow >=2.5
+Capsa 
+Modelbit
+Tensorboard >=2.5
